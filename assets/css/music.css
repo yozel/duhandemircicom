@@ -1,0 +1,185 @@
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      /* Font Family
+================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+
+
+/* Global Styles
+================================================== */
+
+.music-container {
+-webkit-font-smoothing:antialiased;
+-webkit-text-size-adjust:100%;
+background-color:#0665a2;
+color:#fff;
+font-size:105%;
+font-family:"Oxygen", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:300;
+line-height:1.618;
+padding:1rem 0;
+position:relative;
+margin:0 auto;
+max-width:800px;
+width:100%;
+}
+
+* {
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-tap-highlight-color:transparent;
+}
+
+/* Misc.
+================================================== */
+
+.music-container .left { float:left; }
+.music-container .right { float:right; }
+.music-container .center { text-align:center; }
+
+
+/* Audio Player Styles
+================================================== */
+
+.music-container audio {
+margin:0 15px 0 14px;
+width:670px;
+}
+
+.music-container #mainwrap {}
+
+.music-container #audiowrap,
+.music-container #plwrap {
+margin:0 auto;
+}
+
+.music-container #tracks {
+position:relative;
+text-align:center;
+}
+
+.music-container #nowPlay {
+display:inline;
+}
+
+.music-container #npAction {
+padding:21px;
+position:absolute;
+}
+
+.music-container #npTitle {
+padding:21px;
+}
+
+.music-container #plList li {
+cursor:pointer;
+display:block;
+margin:0;
+padding:21px 0;
+}
+
+.music-container #plList li:hover {
+background-color:rgba(0,0,0,.1);
+}
+
+.music-container .plItem {
+position:relative;
+}
+
+.music-container .plTitle {
+left:50px;
+overflow:hidden;
+position:absolute;
+right:65px;
+text-overflow:ellipsis;
+top:0;
+white-space:nowrap;
+}
+
+.music-container .plNum {
+padding-left:21px;
+width:25px;
+}
+
+.music-container .plLength {
+padding-left:21px;
+position:absolute;
+right:21px;
+top:0;
+}
+
+.music-container .plSel,
+.music-container .plSel:hover {
+background-color:rgba(0,0,0,.1);
+color:#fff;
+cursor:default !important;
+}
+
+.music-container a[id^="btn"] {
+border-radius:3px;
+color:#fff;
+cursor:pointer;
+display:inline-block;
+font-size:2rem;
+height:35px;
+line-height:.8;
+margin:0 20px 20px;
+padding:10px;
+text-decoration:none;
+transition:background .3s ease;
+width:35px;
+}
+
+.music-container a[id^="btn"]:last-child {
+margin-left:-4px;
+}
+
+.music-container a[id^="btn"]:hover,
+.music-container a[id^="btn"]:active {
+background-color:rgba(0,0,0,.1);
+color:#fff;
+}
+
+.music-container a[id^="btn"]::-moz-focus-inner {
+border:0;
+padding:0;
+}
+
+
+/* Plyr Overrides
+================================================== */
+
+.music-container .plyr--audio .plyr__controls {
+background-color:transparent;
+border:none;
+color:#fff;
+padding:20px 20px 20px 13px;
+width:100%;
+}
+
+.music-container .plyr--audio .plyr__controls button.tab-focus:focus,
+.music-container .plyr--audio .plyr__controls button:hover,
+.music-container .plyr__play-large {
+background:rgba(0,0,0,.1);
+}
+
+.music-container .plyr__progress--played, .plyr__volume--display {
+color:rgba(0,0,0,.1);
+}
+
+.music-container .plyr--audio .plyr__progress--buffer,
+.music-container .plyr--audio .plyr__volume--display {
+background:rgba(0,0,0,.1);
+}
+
+.music-container .plyr--audio .plyr__progress--buffer {
+color:rgba(0,0,0,.1);
+}
+
+
+/* Media Queries
+================================================== */
+
+@media only screen and (max-width:850px) {
+    .music-container #nowPlay { display:none; }
+}
+
