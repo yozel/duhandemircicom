@@ -494,7 +494,7 @@ textarea::-ms-input-placeholder
     letter-spacing:12px;
     border-top:2px solid #000;
     border-bottom:2px solid #000;
-    
+    padding:20px 0;
 } 
 .home-content p{
     font-size:25px;
