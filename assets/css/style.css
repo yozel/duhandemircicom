@@ -280,7 +280,6 @@ section .subtitle-half h5 {
     margin-bottom: 4rem;
 }
 .overlay {
-    background-color: rgba(0, 0, 0, .45);
     width: 100%;
     overflow:hidden;
     min-height:800px;
@@ -474,7 +473,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(../../1.jpg) no-repeat center top fixed;
+    background: url(../../header_photo.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -489,13 +488,13 @@ textarea::-ms-input-placeholder
 .home-content h1{
     font-size:65px;
     text-transform:uppercase;
-    color:#fff;
+    color:#000;
     font-weight:900;
     font-family: "Raleway Webfont";
     letter-spacing:12px;
-    border-top:2px solid #ecf0f2;
-    border-bottom:2px solid #ecf0f2;
-    padding:20px 0;
+    border-top:2px solid #000;
+    border-bottom:2px solid #000;
+    
 } 
 .home-content p{
     font-size:25px;
