@@ -16,8 +16,8 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'robotoregular';
-    font-weight: 300;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 /*==========================================
 PRE LOADER 
@@ -121,9 +121,10 @@ input[type="color"],
     border: 1px solid rgba(0, 0, 0, 0.08);
     font-size: 16px;
     height: 45px;
+    color: #000;
 }
 .form-control:focus {
-    border-color: #fff;
+    border-color: rgb(94, 94, 94);
 }
 
 h1,
@@ -229,10 +230,19 @@ Section
     color:#fff;
 }
 .sections3{
+    background-color: #ffffff;
     padding-top: 100px;
     position: relative;
     overflow: hidden;
 }
+
+.sections4{
+    background-color: #ececec;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
 .sections4{
     padding-top:5px;
     position: relative;
@@ -247,7 +257,8 @@ Section
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .parallax-section {
     max-width: 100%;
@@ -500,7 +511,8 @@ textarea::-ms-input-placeholder
 }
 .about-content h4{
     font-size:18px;
-    font-family: 'robotobold';
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 .about-content a{
     margin-top:40px;
@@ -597,10 +609,10 @@ textarea::-ms-input-placeholder
 .experience-content{
     background: rgba(79, 50, 68, .7);
     padding:60px 40px;
-    color:#fff;
+    color:#000;
 }
 .experience-content h4{
-    color:#fff;
+    color:#000;
     text-transform:uppercase;
     font-size:26px;
     font-family: "Raleway Webfont";
@@ -608,18 +620,18 @@ textarea::-ms-input-placeholder
     margin-bottom:50px;
 }
 .experience-content .content-details h5{
-    color:#fff;
+    color:#000;
     font-size:18px;
 }
 .experience-content .content-details h6{
-    color:#ecf0f2;
+    color:#000;
     font-size:16px;
 }
 .experience-content .content-details p{
-    color:#ecf0f2;
+    color:#000;
 }
 .experience-content .content-details.content-border{
-    border-bottom:1px solid #dadada;
+    border-bottom:1px solid #000;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -682,10 +694,10 @@ textarea::-ms-input-placeholder
 .contact-area{
     background: rgba(79, 50, 68, .7);
     padding:60px 40px 147px 40px;
-    color:#fff;
+    color:#000;
 }
 .contact-wrapper h4{
-    color:#fff;
+    color:#000;
     text-transform:uppercase;
     font-size:26px;
     font-family: "Raleway Webfont";
@@ -707,7 +719,7 @@ textarea::-ms-input-placeholder
 .contact-details{
     background: rgba(55, 38, 57, 0.64);
     padding:60px 40px;
-    color:#fff;
+    color:#000;
     margin-bottom:20px;
 }
 .contact-details h4{
@@ -715,7 +727,7 @@ textarea::-ms-input-placeholder
 }
 .contact-details p{
     margin: 0 0 10px;
-    color:#c3bec2;
+    color:#000;
 }
 
 /* For Footer Area */
@@ -1069,9 +1081,9 @@ Main components
 
 
 .experience .sections{
-    background-color:black;
+    background-color:#dcdcdc;
 }
 .contact .sections{
-    background-color:black;
+    background-color:#c3c3c3;
     
 }
