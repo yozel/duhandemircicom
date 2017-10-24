@@ -282,7 +282,7 @@ section .subtitle-half h5 {
 .overlay {
     width: 100%;
     overflow:hidden;
-    min-height:800px;
+    min-height:700px;
 }
 .overlay-fluid-block {
     background-color: rgba(0, 0, 0, 0.5);
@@ -473,7 +473,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(../../header_photo.jpg) no-repeat center top fixed;
+    background: url(../../header_photo.jpg) no-repeat center bottom;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -482,7 +482,7 @@ textarea::-ms-input-placeholder
     overflow: hidden;
 }
 .home-wrapper{
-    margin-top:240px;
+    margin-top:100px;
     color:#fff;
 }
 .home-content h1{
