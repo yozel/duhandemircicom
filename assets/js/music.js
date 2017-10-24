@@ -24,6 +24,21 @@ jQuery(function ($) {
                 "name": "The Forsaken - Broadwing Studio (Final Mix)",
                 "length": "8:31",
                 "file": "BS_TF"
+            }, {
+                "track": 3,
+                "name": "All The King's Men - Broadwing Studio (Final Mix)",
+                "length": "5:02",
+                "file": "BS_ATKM"
+            }, {
+                "track": 4,
+                "name": "The Forsaken - Broadwing Studio (First Mix)",
+                "length": "8:32",
+                "file": "BSFM_TF"
+            }, {
+                "track": 5,
+                "name": "All The King's Men - Broadwing Studio (First Mix)",
+                "length": "5:05",
+                "file": "BSFM_ATKM"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
@@ -41,12 +56,12 @@ jQuery(function ($) {
             npTitle = $('#npTitle'),
             audio = $('#audio1').bind('play', function () {
                 playing = true;
-                npAction.text('Now Playing...');
+                npAction.text('Çalıyor...');
             }).bind('pause', function () {
                 playing = false;
-                npAction.text('Paused...');
+                npAction.text('Durduruldu...');
             }).bind('ended', function () {
-                npAction.text('Paused...');
+                npAction.text('Durduruldu...');
                 if ((index + 1) < trackCount) {
                     index++;
                     loadTrack(index);

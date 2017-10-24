@@ -27,16 +27,12 @@
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
-        <link rel="stylesheet" href="assets/css/music.css" />
-        
-        <link rel='stylesheet prefetch' href='http://cdn.plyr.io/2.0.13/plyr.css'>
-
-        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-        <script src='http://api.html5media.info/1.1.8/html5media.min.js'></script>
-        <script src='http://cdn.plyr.io/2.0.13/plyr.js'></script>
-
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <link rel='stylesheet prefetch' href='http://cdn.plyr.io/2.0.13/plyr.css'>
+        <link rel="stylesheet" href="assets/css/music.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -58,7 +54,7 @@
             <a href="#0" class="cd-close-menu">Close<span></span></a>
         </nav>
 
-        <!--Home page style-->
+        <!--     page style-->
         <header id="home" class="home home-main-content">
             <div class="overlay sections">
                 <div class="container text-center">
@@ -141,40 +137,39 @@
 
                     </div>
                 </div>	
-            </div> <!-- /container -->       
+            </div>
         </section>
 
         <!-- Sections -->
-        <!-- <section id="features" class="sections lightbg">
+        <section id="features" class="sections lightbg">
 
             <div class="heading-content text-center">
-                <h3>My Working Process</h1>
-                    <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+                <h3 style="color:#d8d8d8">Müziklerim</h1>
             </div>
 
-            <div class="container text-center">
-                
-                <div class="row">
-                        <div class="music-container">
-                                <div id="mainwrap">
-                                    <div id="nowPlay">
-                                        <span class="left" id="npAction">Paused...</span>
-                                        <span class="right" id="npTitle"></span>
-                                    </div>
-                                    <div id="audiowrap">
-                                        <div id="audio0">
-                                            <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
-                                        </div>
-                            
-                                    </div>
-                                    <div id="plwrap">
-                                        <ul id="plList"></ul>
-                                    </div>
-                                </div>
+            <div class="music-container">
+                <div class="column add-bottom">
+                    <div id="mainwrap">
+                        <div id="nowPlay">
+                            <span class="right" id="npAction">Durduruldu...</span>
+                            <span class="left" id="npTitle"></span>
+                        </div>
+                        <div id="audiowrap">
+                            <div id="audio0">
+                                <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
                             </div>
+                            <div id="tracks">
+                                <a id="btnPrev">&larr;</a>
+                                <a id="btnNext">&rarr;</a>
+                            </div>
+                        </div>
+                        <div id="plwrap">
+                            <ul id="plList"></ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section> -->  
+        </section>
 
         <!-- Sections -->
         <section id="experience" class="experience">
@@ -295,31 +290,6 @@
             </div>       
         </section>
 
-
-        <!--Footer-->
-        <!-- <footer id="footer" class="footer">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                        <div class="main-footer">
-
-                            <div class="social">
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-behance"></i></a>
-                                <a href="#"><i class="fa dribbble fa-dribbble"></i></a>
-                            </div>
-
-                            <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </footer> -->
-
-
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
 
@@ -327,6 +297,12 @@
         <script src="assets/js/jquery.magnific-popup.js"></script>
         <script src="assets/js/main.js"></script>
     
-        <script src="assets/js/music.js"></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='http://api.html5media.info/1.1.8/html5media.min.js'></script>
+        <script src='http://cdn.plyr.io/2.0.13/plyr.js'></script>
+        <script type="text/javascript">
+            var jQuery_2_0_13 = $.noConflict(true);
+        </script>
+        <script  src="assets/js/music.js"></script>
     </body>
 </html>
