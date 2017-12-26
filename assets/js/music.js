@@ -12,34 +12,70 @@ jQuery(function ($) {
     if (supportsAudio) {
         var index = 0,
             playing = false,
-            mediaPath = 'https://archive.org/download/mythium/',
+            mediaPath = 'https://duhandemirci.com/music/',
             extension = '',
-            tracks = [{
-                "track": 1,
-                "name": "All This Is - Joe L.'s Studio",
-                "length": "2:46",
-                "file": "JLS_ATI"
-            }, {
-                "track": 2,
-                "name": "The Forsaken - Broadwing Studio (Final Mix)",
-                "length": "8:31",
-                "file": "BS_TF"
-            }, {
-                "track": 3,
-                "name": "All The King's Men - Broadwing Studio (Final Mix)",
-                "length": "5:02",
-                "file": "BS_ATKM"
-            }, {
-                "track": 4,
-                "name": "The Forsaken - Broadwing Studio (First Mix)",
-                "length": "8:32",
-                "file": "BSFM_TF"
-            }, {
-                "track": 5,
-                "name": "All The King's Men - Broadwing Studio (First Mix)",
-                "length": "5:05",
-                "file": "BSFM_ATKM"
-            }],
+            tracks = [
+                {
+                    "track": 1,
+                    "name": "Alinin 8 günü (Ambiyans&Elektronik)",
+                    "length": "3:02",
+                    "file": "alinin-8-gunu-ambiyans-elektronik"
+                },
+                {
+                    "track": 2,
+                    "name": "Ambulance (Trance&Deep)",
+                    "length": "2:24",
+                    "file": "ambulance-trance-deep"
+                },
+                {
+                    "track": 3,
+                    "name": "Dokuz (Klasik&Piyano)",
+                    "length": "1:40",
+                    "file": "dokuz-klasik-piyano"
+                },
+                {
+                    "track": 4,
+                    "name": "Ellerin (Klasik&Piyano)",
+                    "length": "2:42",
+                    "file": "ellerin-klasik-piyano"
+                },
+                {
+                    "track": 5,
+                    "name": "Espia (Enstrümental&Klasik)",
+                    "length": "0:48",
+                    "file": "espia-enstrumental-klasik"
+                },
+                {
+                    "track": 6,
+                    "name": "Exposure (Piyano&Edm&Dance)",
+                    "length": "1:42",
+                    "file": "exposure-piyano-edm-dance"
+                },
+                {
+                    "track": 7,
+                    "name": "Gece (Elektronik&Indie)",
+                    "length": "4:44",
+                    "file": "gece-elektronik-indie"
+                },
+                {
+                    "track": 8,
+                    "name": "Hey Jude (Acapella&Vocals)",
+                    "length": "2:12",
+                    "file": "hey-jude-acapella-vocals"
+                },
+                {
+                    "track": 9,
+                    "name": "Ollie (Enstrümental&Hush)",
+                    "length": "2:06",
+                    "file": "ollie-enstrumental-hush"
+                },
+                {
+                    "track": 10,
+                    "name": "Public Call (Gerilim&Enstrümental)",
+                    "length": "1:01",
+                    "file": "public-call-gerilim-enstrumental"
+                },
+        ],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
                     trackName = value.name,
