@@ -450,11 +450,10 @@ textarea::-ms-input-placeholder
 }
 .heading-content h3{
     font-size:40px;
-    font-family: "Raleway Webfont";
     font-weight:700;
     letter-spacing:3px;
 }
-.btn-default {
+.btn-default, .btn-default:visited {
     color: #fff;
     background-color: #ff2b4a;
     border-color: transparent;
@@ -490,7 +489,6 @@ textarea::-ms-input-placeholder
     text-transform:uppercase;
     color:#000;
     font-weight:900;
-    font-family: "Raleway Webfont";
     letter-spacing:12px;
     border-top:2px solid #000;
     border-bottom:2px solid #000;
@@ -510,7 +508,6 @@ textarea::-ms-input-placeholder
 }
 .about-content h4{
     font-size:18px;
-    font-family: 'Roboto';
     font-weight: 700;
 }
 .about-content a{
@@ -602,19 +599,11 @@ textarea::-ms-input-placeholder
     width: 100%;
     overflow: hidden;
 }
-.experience-wrapper{
-    margin-top:30px;
-}
-.experience-content{
-    background: rgba(79, 50, 68, .7);
-    padding:60px 40px;
-    color:#000;
-}
+
 .experience-content h4{
     color:#000;
     text-transform:uppercase;
     font-size:26px;
-    font-family: "Raleway Webfont";
     font-weight:600;
     margin-bottom:50px;
 }
@@ -691,15 +680,14 @@ textarea::-ms-input-placeholder
 }
 
 .contact-area{
-    background: rgba(79, 50, 68, .7);
-    padding:60px 40px 147px 40px;
-    color:#000;
+    background: #292929;
+    padding:60px 40px 60px 40px;
+    color:#fff;
 }
 .contact-wrapper h4{
-    color:#000;
+    color:#fff;
     text-transform:uppercase;
     font-size:26px;
-    font-family: "Raleway Webfont";
     font-weight:600;
     margin-bottom:50px;
 }
@@ -716,7 +704,7 @@ textarea::-ms-input-placeholder
     margin-top:20px;
 }
 .contact-details{
-    background: rgba(55, 38, 57, 0.64);
+    background: #292929;
     padding:60px 40px;
     color:#000;
     margin-bottom:20px;
@@ -726,7 +714,7 @@ textarea::-ms-input-placeholder
 }
 .contact-details p{
     margin: 0 0 10px;
-    color:#000;
+    color:#e2e2e2;
 }
 
 /* For Footer Area */
