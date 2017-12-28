@@ -853,6 +853,7 @@ Main components
     font-size: 14px;
     font-size: 0.875rem;
     border: 2px solid #EDEDED;
+    background-color: #000;
 }
 .cd-menu-trigger span {
     /* hamburger icon */
